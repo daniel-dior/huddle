@@ -46,6 +46,8 @@
     padding: 20px 50px;
     text-decoration: none;
     transition: 0.5s;
+    font-size: 15px;
+    
 }
 .link a:hover {
     background-color: white;
