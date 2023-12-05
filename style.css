@@ -43,7 +43,7 @@
     color: white;
     border-radius: 50px;
     background-color: rgb(235, 9, 133);
-    padding: 30px 50px;
+    padding: 20px 50px;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -52,8 +52,6 @@
     color: rgb(235, 9, 133);
     box-shadow: 5px 5px 5px 5px #cec3c3 ;
     transition: 0.5s;
-
-
 }
 .link {
     margin-top: 100px;
@@ -125,6 +123,7 @@
     margin-top: 50px;
 }
 .footer {
+    /* background-image: url(./images/bg-footer-top-mobile.svg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(57,27,112);
