@@ -196,6 +196,9 @@
     .body1 p{
         font-size: 20px;
     }
+    .link {
+        font-size: 10px;
+    }
     .body1 {
         padding: 10px;
     }
@@ -254,5 +257,10 @@
     }
     .word2 h2, p {
         margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .link {
+        font-size: 10px;
     }
 }
