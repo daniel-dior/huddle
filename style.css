@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.nav a {
+    color: rgb(140, 0, 255);
+    border: 1px solid rgb(140, 0, 255) ;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 0px rgb(140, 0, 255) ;
+    transition: 0.5s;
+}
+.nav a:hover {
+    opacity: 0.8;
+    color: white;
+    background-color: rgb(140, 0, 255) ;
+    box-shadow: 5px 5px 5px 0px #cec3c3 ;
+    transition: 0.5s;
+
+}
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.body1 h1 {
+    margin-bottom: 30px;
+}
+.link a{
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(235, 9, 133);
+    padding: 30px 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link a:hover {
+    background-color: white;
+    color: rgb(235, 9, 133);
+    box-shadow: 5px 5px 5px 5px #cec3c3 ;
+    transition: 0.5s;
+
+
+}
+.link {
+    margin-top: 100px;
+}
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.img img {
+    width: 100%;
+    transition: 0.5s;
+}
+.flex {
+    display: flex;
+    gap: 400px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.flex h1 {
+    font-size: 80px;
+    color: rgb(0,37,46);
+    font-weight: bold;
+}
+.body3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 200px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.flex1:hover {
+    background-color: rgb(229,249,255) ;
+    transition: 0.5s;
+}
+.flex1 h1 {
+    color: rgb(0,37,46);
+    font-weight: bold;
+}
+.link2 a{
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(235, 9, 133);
+    padding: 20px 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link2 a:hover {
+    background-color: white;
+    color: rgb(235, 9, 133);
+    box-shadow: 5px 5px 5px 5px #cec3c3 ;
+    transition: 0.5s;
+}
+.link2 {
+    margin-top: 50px;
+}
+.footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(57,27,112);
+    width: 100%;
+    height: 300px;
+    padding-bottom: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    gap: 300px;
+}
+.icon {
+    display: flex;
+    gap: 20px;
+}
+.form {
+    display: flex;
+    gap: 50px;
+}
+.form1 input {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    cursor: auto;
+}
+.form1 input:hover {
+    border: 4px solid rgb(235, 9, 133);transition: 0.5s;
+}
+.form2 input {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 9, 133) ;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.form2 input:hover {
+    background-color: white;
+    color:rgb(235, 9, 133) ;
+    transition: 0.5s;
+}
+@media screen and (max-width:900px) {
+    .logo img {
+        width: 130px;
+        height: 30px;
+    }
+    .navbar {
+        padding: 20px 10px;
+    }
+    .body1 h1 {
+        font-size: 30px;
+    }
+    .body1 p{
+        font-size: 20px;
+    }
+    .body1 {
+        padding: 50px;
+    }
+    br {
+        display: none;
+    }
+    .link {
+        padding: 10px 50px;
+        font-size: 20px;
+    }
+    .body2 {
+        margin-bottom: 300px;
+    }
+    .flex {
+        flex-direction: column;
+        gap: 100px;
+        
+    }
+    .flex1 {
+        flex-direction: column-reverse;
+        gap: 50px;
+        text-align: center;
+    }
+    .body3 {
+    padding: 20px;
+
+    }
+    .content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: left;
+    }
+    .form {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+        justify-content: right;
+    }
+    .form1 input {
+        width: 300px;
+    }
+    .form2  {
+        justify-content: right;
+        display: flex;
+    }
+    .footer {
+        height: 700px;
+        padding: 100px;
+        margin-top: 100px;
+    }
+    .word {
+        margin-bottom: 50px;
+    }
+    .word img, p {
+        margin-bottom: 20px;
+    }
+    .word2 h2, p {
+        margin-bottom: 20px;
+    }
+}
